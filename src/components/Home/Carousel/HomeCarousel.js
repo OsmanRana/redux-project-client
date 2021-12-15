@@ -12,7 +12,7 @@ const HomeCarousel = () => {
             <Carousel fade activeIndex={index} onSelect={handleSelect} >
                 <Carousel.Item>
                     <img
-                        className="d-block w-100" 
+                        className="d-block w-100"
                         src="https://images.squarespace-cdn.com/content/v1/5acb767750a54f99f58d8171/1604103929871-QZMHEIPKBFXFNKWADLPH/2600-broad-twi-4392-%28ZF-0562-82709-1-014%29.jpg?format=2500w"
                         alt="First slide"
                     />
@@ -32,6 +32,7 @@ const HomeCarousel = () => {
                     />
                 </Carousel.Item>
             </Carousel>
+            <div className="d-none d-sm-none d-md-block bg-dark" style={{ height: "100px", marginTop: "-80px", position:"relative", zIndex: "1" }}></div>
         </div>
     );
 };

@@ -13,7 +13,7 @@ const Navigation = () => {
                         <Nav className="me-auto">
                         </Nav>
                         <Nav className="fs-5 fw-bold">
-                        <Nav.Link href="#features">ABOUT</Nav.Link>
+                        <Nav.Link href="#about">ABOUT</Nav.Link>
                         <NavDropdown className="mx-5" title="SERVICES" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Construction Services</NavDropdown.Item>
                                 <NavDropdown.Divider />
@@ -22,7 +22,7 @@ const Navigation = () => {
                                 <NavDropdown.Item href="#action/3.2">Design Build</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">Design Bid Build</NavDropdown.Item>
                             </NavDropdown>
-                            <button className="fs-5 fw-bold button">CONTACT</button>
+                            <Nav.Link href="#contact" className="fs-5 fw-bold button">CONTACT</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
