@@ -14,23 +14,25 @@ const Contact = () => {
 
                 </div>
                 <div className="col col-sm-12 col-md-6 p-5">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First name please"></input>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Last name please"></input>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button className="fs-5 my-5 button">SUBMIT</button>
+                    <form>
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlInput1" className="form-label">First Name</label>
+                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="First name please"></input>
+                        </div>
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlInput1" className="form-label">Last Name</label>
+                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Last name please"></input>
+                        </div>
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
+                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+                        </div>
+                        <div className="mb-3">
+                            <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" className="fs-5 my-5 button">SUBMIT</button>
+                    </form>
                 </div>
             </div>
         </div>

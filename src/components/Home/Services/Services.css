@@ -1,0 +1,22 @@
+.serviceButton {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 10px 20px;
+}
+.serviceButton:hover {
+    border: 2px solid white;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 20px;
+}
+
+.serviceDiv {
+    transition: 1s ease;
+}
+
+  .serviceDiv:hover {
+    scale: 2;
+    /* overflow: hidden; */
+  }
+  
