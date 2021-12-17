@@ -2,6 +2,12 @@
 .App {
   text-align: center;
 }
+body {
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .App-logo {
   height: 40vmin;

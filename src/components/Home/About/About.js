@@ -15,15 +15,15 @@ const About = () => {
                 </div>
                 <div className="col col-sm-12 col-md-6 bg-dark text-white p-5">
                     <h3>Core Values</h3>
-                    <p><span className="fw-bold">We are Inspirational</span> – We have a positive mindset and are focused on what is
+                    <p><span className="fs-5">We are Inspirational</span> – We have a positive mindset and are focused on what is
                         possible.</p>
-                    <p><span className="fw-bold">We are disciplined</span> – We do what we say we are going to do.</p>
-                    <p><span className="fw-bold">We are accountable</span> – We strive for daily continuous improvements in our actions and
+                    <p><span className="fs-5">We are disciplined</span> – We do what we say we are going to do.</p>
+                    <p><span className="fs-5">We are accountable</span> – We strive for daily continuous improvements in our actions and
                         hold each other accountable.</p>
-                    <p><span className="fw-bold">We are transparent</span> – We openly communicate with one another.</p>
-                    <p><span className="fw-bold">We are aligned</span> – We are moving in the same direction and will do whatever it takes to
+                    <p><span className="fs-5">We are transparent</span> – We openly communicate with one another.</p>
+                    <p><span className="fs-5">We are aligned</span> – We are moving in the same direction and will do whatever it takes to
                         support our team.</p>
-                    <p><span className="fw-bold">We are results oriented</span> – We understand that at the end of the day we need to
+                    <p><span className="fs-5">We are results oriented</span> – We understand that at the end of the day we need to
                         produce quality work in a safe manner</p>
                 </div>
             </div>
