@@ -11,12 +11,9 @@
     padding: 10px 20px;
 }
 
-.serviceDiv {
-    transition: 1s ease;
-}
-
   .serviceDiv:hover {
-    scale: 2;
-    /* overflow: hidden; */
+    transition: 5s ease;
+    transform: scale(1.25, 1.25);
+  
   }
   

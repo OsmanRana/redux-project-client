@@ -13,7 +13,7 @@ const Services = () => {
                     backgroundSize: 'cover',
                     padding: '0',
                     width: '100%',
-                    maxWidth: '375px'
+                    maxWidth: '400px'
 
                 }}>
                     
@@ -30,7 +30,7 @@ const Services = () => {
                     backgroundSize: 'cover',
                     padding: '0',
                     width: '100%',
-                    maxWidth: '375px'
+                    maxWidth: '400px'
                 }}>
                     <div className='my-5 d-flex align-items-center justify-content-center'>
                         <div>
@@ -46,7 +46,7 @@ const Services = () => {
                     backgroundSize: 'cover',
                     padding: '0',
                     width: '100%',
-                    maxWidth: '375px'
+                    maxWidth: '400px'
                 }}>
                     <div className='my-5 d-flex align-items-center justify-content-center'>
                         <div>
